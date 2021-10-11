@@ -5,8 +5,8 @@
 body{
     background: linear-gradient(45deg, rgb(134, 134, 238), blue);
     background-repeat: no-repeat;
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
 }
 img.lado{
     float: right;
