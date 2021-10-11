@@ -3,10 +3,20 @@
     font-size: 16px;
 }
 body{
-    background-color: rgba(59, 84, 221, 0.425);
+    background: linear-gradient(45deg, rgb(134, 134, 238), blue);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 img.lado{
     float: right;
+}
+h1.formato{
+    color: rgb(22, 18, 245);
+    font-size: larger;
+}
+h2.cores{
+    color: darkblue;
 }
 main{
     background-color: white;
@@ -14,4 +24,5 @@ main{
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
 }
